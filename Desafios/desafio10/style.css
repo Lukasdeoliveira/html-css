@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'idroidd';
+    src: url('fontes/fonte2.otf') format('opentype');
+    
+}
+body{
+    font-family: ;
+    background-image: linear-gradient(to top, #001a4b, #5283df);
+    padding: 80px;
+    margin-top: -101px;
+    
+   
+}
+/* organizando o cabeçalho */
+header{
+    border: solid none; 
+    background-image: linear-gradient(to top, #1e135e, #0011f8);
+    /* border: solid none; 
+    background-image: linear-gradient(to top, #092b07, #2EDB1F); */
+    
+}
+header > h1{   
+    font-family: 'idroidd', Arial, Helvetica, sans-serif;    
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+header > article{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+    
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    
+}
+nav > a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+nav > a:hover{
+    background-color: rgba(87, 247, 72, 0.692);
+    border-radius: 8px;
+    text-decoration: underline;
+    color: #ffffff
+    
+}
+/* Organizando o main */
+.fonte-titulos{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #135C0D;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 15px;
+    
+}
+
+div{
+    color: green;
+    
+}
+.h2background{
+   background-image: linear-gradient(to right, rgba(1, 179, 1, 0.281), rgba(0, 128, 0, 0));
+    
+}
+/*mexendo no rodapé */
+footer{
+    background-color: rgba(138, 238, 191, 0.616);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+ul{
+    color: black;
+}
+footer > p{
+    padding: 5px;
+}
+.footer{
+    background-color: rgb(10, 173, 105);
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+footer > nav > p{
+    color: black
+}
+
+}
+#extra{
+    color: white;
+    background-color: black;
+    
+}
+
